@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="as.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Expense List</h1>
+        <hr>
+    <form onsubmit="return false">
+        <input id="inp1" type="text" placeholder="enter name">
+        <input id="inp2" type="number" placeholder="enter name">
+
+
+      <div> <button id="click" onclick=clickhandler() >Add Expense</button></div> 
+    </form>
+    <div id="expenselist"></div>
+    <div class="totalamount">
+        <h4>Total Expense : Rs <span id="totalsum"> 0 </span> </h4>
+    </div>
+    </div>
+    <script src="as.js"></script>
+    
+</body>
+</html>
