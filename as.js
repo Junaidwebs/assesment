@@ -38,7 +38,6 @@ function clickhandler(){
 
        dv.appendChild(btn)
 
-       indx++
        sum += expense
        console.log(sum)
 
